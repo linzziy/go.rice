@@ -1,4 +1,4 @@
-module github.com/GeertJohan/go.rice
+module github.com/linzziy/go.rice
 
 go 1.12
 

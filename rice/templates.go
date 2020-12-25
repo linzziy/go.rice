@@ -50,7 +50,7 @@ func init() {
 import (
 	"time"
 
-	"github.com/GeertJohan/go.rice/embedded"
+	"github.com/linzziy/go.rice/embedded"
 )
 
 {{range .Boxes}}

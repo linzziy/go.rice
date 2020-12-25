@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GeertJohan/go.rice/embedded"
+	"github.com/linzziy/go.rice/embedded"
 )
 
 // Box abstracts a directory for resources/files.
@@ -336,4 +336,8 @@ func (b *Box) MustString(name string) string {
 // Name returns the name of the box
 func (b *Box) Name() string {
 	return b.name
+}
+// Name returns the name of the box
+func (b *Box) AbsolutePath() string {
+	return b.absolutePath
 }
